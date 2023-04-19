@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!-- page.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {{ content }}
+
+    {% if page.publications %}
+      <p>
+      <h2>publications</h2>
+      <div class="publications">
+        {% bibliography -f papers -q @*[{{page.publications}}]* %}
+      </div>
+      <p>
+    {% endif %}
+  </article>
+
+</div>

@@ -1,0 +1,24 @@
+<div class="card-item col">
+  {%- if member.redirect -%}
+  <a href="{{ member.redirect }}">
+  {%- else -%}
+  <a href="{{ member.url | relative_url }}">
+  {%- endif -%}
+    <div class="card hoverable">
+      <div class="row g-0">
+        <div class="col-md-3">
+          {% include figure.html path=member.img class="img-fluid rounded-circle z-depth-1" alt="member thumbnail" %}
+        </div>
+        <div class="col-md-9">
+          <div class="card-body">
+            <h3 class="card-title text">{{ member.title }}</h3>
+            <p class="card-text">{{ member.description }}</p>
+            <p class="card-text">
+              <small class="test-muted"><i class="fas fa-thumbtack"></i> {{ member.address | replace: '<br />', ', ' }}</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

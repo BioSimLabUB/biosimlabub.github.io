@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+<div class="post">
+  <article>
+    <div class="profile float-right">
+      {% if page.img %}
+        {% if page.href %}<a href="{{ page.href | relative_url }}">{% endif %}
+          {% include figure.html path=page.img class="img-fluid rounded-circle z-depth-1" alt="member thumbnail" %}
+        {% if page.href %}</a>{% endif %}
+      {% endif %}
+      {% if page.address %}
+        <div class="address" style="text-align: right;">
+          <p>
+            {% if page.href %}<a href="{{ page.href | relative_url }}">{% endif %}
+              <span class="name">{{ page.title }}</span>
+            {% if page.href %}</a>{% endif %}
+            {% if page.position %}<br />{{ page.position }}{% endif %}
+            {% if page.email %}<br /><a href="mailto:{{ page.email }}"><i class="fas fa-envelope"></i> {{ page.email | replace: '@', ' [at] ' }}</a>{% endif %}
+            {% if page.phone %}<br /><a href="tel:{{ page.phone }}"><i class="fas fa-phone"></i> {{ page.phone }}</a>{% endif %}
+            {% if page.orcid %}<br /><a href="https://orcid.org/{{ page.orcid }}" target="_blank"><i class="fab fa-orcid"></i> {{ page.orcid }}</a>{% endif %}
+            {% if page.twitter %}<br /><a href="https://twitter.com/{{ page.twitter }}" target="_blank"><i class="fab fa-twitter"></i> {{ page.twitter }}</a>{% endif %}
+            {% if page.github %}<br /><a href="https://github.com/{{ page.github }}" target="_blank"><i class="fab fa-github"></i> {{ page.github }}</a>{% endif %}
+            {% if page.scholar %}<br /><a href="https://scholar.google.com/citations?user={{ page.scholar }}" target="_blank"><i class="ai ai-google-scholar"></i> {{ "Google Scholar" }}</a>{% endif %}
+            {% if page.website %}<br /><a href="{{ page.website }}" target="_blank"><i class="fas fa-globe"></i> {{ page.website }}</a>{% endif %}
+          </p>
+          <p class="post">{{ page.address }}</p>
+        </div>
+      {% endif %}
+    </div>
+
+    <div class="clearfix">
+      {{ content }}
+    </div>
+
+    {% if page.cv %}
+      <h2 id="cv">Curriculum Vitae</h2>
+      <div class="cv">
+      {% for entry in site.data.cv %}
+        <div class="card mt-3 p-3">
+          <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+          <div>
+          {% if entry.type == "list" %}
+            {% include cv/list.html %}
+          {% elsif entry.type == "map" %}
+            {% include cv/map.html %}
+          {% elsif entry.type == "nested_list" %}
+            {% include cv/nested_list.html %}
+          {% elsif entry.type == "time_table" %}
+           {% include cv/time_table.html %}
+          {% else %}
+            {{ entry.contents }}
+          {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if page.publications %}
+      <h2 id="publications">Publications</h2>
+      <div class="publications">
+        {% bibliography -f papers -q @*[{{page.publications}}]* %}
+      </div>
+    {% endif %}
+  </article>
+</div>
