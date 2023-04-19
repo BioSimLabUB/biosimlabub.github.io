@@ -13,10 +13,12 @@ layout: default
     {{ content }}
 
     {% if page.publications %}
+      <p>
       <h2>publications</h2>
       <div class="publications">
         {% bibliography -f papers -q @*[{{page.publications}}]* %}
       </div>
+      </p>
     {% endif %}
   </article>
 
