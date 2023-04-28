@@ -3,6 +3,7 @@ layout: page
 title: intrinsically disordered proteins
 description: explore IDP structural heterogeneity
 img: assets/img/projects/IDP.png
+publications: project^=*IDP
 importance: 3
 category: current
 ---
