@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our recent work has been accepted and now appears on [PNAS](https://www.pnas.org/doi/abs/10.1073/pnas.2301409120)! We establish a link between structures & thermodynamics of monomeric RNAs and its propensity to undergo phase separation & aggregation.
+Our recent work has been accepted and now appears on [PNAS](https://www.pnas.org/doi/abs/10.1073/pnas.2301409120)! We establish a link between structures & thermodynamics of monomeric RNAs and their propensity to undergo phase separation & aggregation.
