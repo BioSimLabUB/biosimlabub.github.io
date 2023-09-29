@@ -23,4 +23,4 @@ I got my PhD from Rutgers University in BioMaPS Institute (now the Center for Qu
 
 I then joined the group of [Prof. Dave Thirumalai](https://sites.cns.utexas.edu/thirumalai) as a postdoc. There I initially worked on RNA folding, in particular the **effects of ions on RNA folding thermodynamics**. Later, I switched gear to develop computational models to understand the **phase separation behaviors of RNA**, as well as the **conformational heterogeneity and dynamics of intrinsically disordered proteins (IDPs)**.
 
-I joined the Department of Chemistry at the University of Buffalo as an Assistant Professor in August 2023. Check out our current [interests](/projects).
+I joined the Department of Chemistry at the University at Buffalo as an Assistant Professor in August 2023. Check out our current [interests](/projects).
