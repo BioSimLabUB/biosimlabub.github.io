@@ -4,7 +4,7 @@
     - name: Full Name
       value: Hung T. Nguyen
     - name: Position
-      value: Assistant Professor, Department of Chemistry, University of Buffalo
+      value: Assistant Professor, Department of Chemistry, University at Buffalo
     - name: Languages
       value: English, Vietnamese
     - name: Research interests
@@ -28,7 +28,7 @@
   type: time_table
   contents:
     - title: Assistant Professor of Chemistry
-      institution: Department of Chemistry, University of Buffalo, NY
+      institution: Department of Chemistry, University at Buffalo, NY
       year: 2023 - now
 
     - title: Postdoctoral Fellow
@@ -47,43 +47,51 @@
 
     - title: Visiting Research Fellow
       institution: Nagoya University, Nagoya, Japan
-      year: 1909 - 1911
+      year: 2009
 
 - title: Presentations
   type: time_table
   contents:
-    - title: Biophysical Society Meeting
+    - title: Genome, Environment and Microbiome (GEM) Community of Excellence, UB (invited)
+      year: Aug 2023
+      decription: Structure and dynamics of RNA in biomolecular condensate
+
+    - title: Department of Biochemistry and Molecular Biophysics, Kansas State (invited)
+      year: Feb 2023
+      description: Disease-associated condensate formation under a computational lens
+
+    - title: Biophysical Society Meeting, San Diego CA
       year: Feb 2023
       description: Structure and dynamics of RNA in biomolecular condensate
 
-    - title: 33rd IUPAP Conference on Computational Physics
+    - title: 33rd IUPAP Conference on Computational Physics, virtual
       year: Aug 2022
       description: Condensates in RNA repeat sequences are heterogeneously organized and exhibit reptation dynamics
 
-    - title: Biophysical Society Meeting
+    - title: Biophysical Society Meeting, virtual
       year: Feb 2021
       description: Liquid–liquid phase separation of repeat disorder sequences leads to RNA conformational and dynamical heterogeneity
 
-    - title: American Chemical Society National Meeting
+    - title: American Chemical Society National Meeting, Orlando FL
       year: Apr 2019
       description: Free energy changes in the folding transitions of RNA driven by divalent cations
 
-    - title: Biophysical Society Meeting
+    - title: Biophysical Society Meeting, San Francisco CA
       year: Feb 2018
       description: Calculation of ion-dependent RNA folding free energy using coarse-grained simulation
 
-    - title: National Renewable Energy Laboratory seminar
+    - title: National Renewable Energy Laboratory, Golden CO
       year: Oct 2015
       description: Water–biomolecule interaction studied by 3D-RISM and X-ray scattering
 
-    - title: American Chemical Society National Meeting
+    - title: American Chemical Society National Meeting, Denver CO
       year: Mar 2015
       description: Water–biomolecule interaction studied by 3D-RISM and X-ray scattering
 
-    - title: Institute for Computational Science and Technology seminar
+    - title: Institute for Computational Science and Technology, Vietnam (invited)
       year: Feb 2013
       description: Classical molecular dynamics simulation with AMBER
 
-    - title: International Workshop on Computational Biophysics
+    - title: International Workshop on Computational Biophysics, Vietnam
       year: Feb 2010
       description: Top-hits for Swine Flu Neuraminidase identified by virtual screening using ensemble-based docking
