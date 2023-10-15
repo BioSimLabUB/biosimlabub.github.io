@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Super excited to welcome Peter joining the lab! :tada: Looking forward to working with you!
+Super excited to welcome Peter, the very first grad student, joining the lab! :tada: Looking forward to working with you!
