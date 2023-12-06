@@ -5,7 +5,7 @@ permalink: /members/
 description: 🥷 <i>Homo sapiens</i> studying <i>Nature</i>
 nav: true
 nav_order: 2
-display_categories: [PI, Graduate students]
+display_categories: [PI, Postdoc, Graduate students]
 ---
 
 <!-- pages/members.md -->
