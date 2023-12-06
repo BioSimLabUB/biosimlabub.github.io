@@ -11,7 +11,7 @@ Interested in our research and want to join our lab, please contact [Hung](/memb
 
 - **Postdocs**:
 
-We are currently seeking **TWO** highly motivated and skilled postdoctoral researchers to join our lab. You will have the opportunity to work on cutting-edge research projects to understand biological systems at the molecular level. The focuses are on biomolecules structures and dynamics in biomolecular condensates.
+We are currently seeking a highly motivated and skilled postdoctoral researchers to join our lab. You will have the opportunity to work on cutting-edge research projects to understand biological systems at the molecular level. The focuses are on biomolecules structures and dynamics in biomolecular condensates.
 
 Qualifications:
 
@@ -31,7 +31,7 @@ Responsibilities:
 
 We offer a competitive salary and benefits package. If you are passionate about computational biophysics and eager to make a meaningful contribution to the field, we encourage you to apply.
 
-Apply [here](https://www.ubjobs.buffalo.edu/postings/43564): enclose a **short CV (including publications)**, and arrange **three letters of reference** to be sent to [<i class="fas fa-envelope"></i> {{ site.email | replace: '@', ' [at] ' }}](mailto:{{ site.email }}). Applications will be reviewed on a rolling basis until the positions are filled.
+To apply, send a **short CV (including publications)** to [<i class="fas fa-envelope"></i> {{ site.email | replace: '@', ' [at] ' }}](mailto:{{ site.email }}). Applications will be reviewed on a rolling basis until the positions are filled.
 
 - **Graduate and undergraduate students**:
 

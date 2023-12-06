@@ -7,7 +7,7 @@ lastname: Zhang
 email: hzhang79@buffalo.edu
 twitter: pz_chem_tweet
 github: peter-zhang-chem
-#scholar: t1gX2XQAAAAJ
+#scholar:
 img: assets/img/members/Peter.png
 category: Graduate students
 cv: false
