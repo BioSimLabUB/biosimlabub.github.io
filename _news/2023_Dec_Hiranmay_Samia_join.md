@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Delighted to welcome **TWO** new members joining the lab :tada: Hiranmay (who will join us as a first ever postdoc) and Samia (as a new grad student)! Cannot wait for all the science coming out of them!
+Delighted to welcome **TWO** new members joining the lab :tada: Hiranmay (who will join us as the first ever postdoc) and Samia (as a new grad student)! Cannot wait for all the science coming out of them!
