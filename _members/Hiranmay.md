@@ -3,7 +3,7 @@ layout: members
 title: Hiranmay Maity
 description: Postdoc
 lastname: Maity
-email: hrnmy.rkmv@gmail.com
+email: hmaity@buffalo.edu
 #twitter:
 #github:
 scholar: IJF_KHkAAAAJ
