@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Peter and Hiranmay are giving posters at NY RNA Symposium for their work about modeling RNA structural ensemble and phase separation propensity. Peter got an outstanding award for his poster! :tada: Super great job for your first conference Peter!
+Peter and Hiranmay gave posters at NY RNA Symposium for their work about modeling RNA structural ensemble and phase separation propensity. Peter got an outstanding award for his poster! :tada: Super great job for your first conference Peter!
