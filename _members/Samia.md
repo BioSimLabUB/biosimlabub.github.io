@@ -9,7 +9,8 @@ email: samianoo@buffalo.edu
 #github:
 #scholar:
 img: assets/img/members/shy_member.jpg
-category: Graduate students
+category: Alumni
+position: UK
 cv: false
 address: >
     Department of Chemistry<br />

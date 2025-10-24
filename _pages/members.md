@@ -5,7 +5,7 @@ permalink: /members/
 description: 🥷 <i>Homo sapiens</i> studying <i>Nature</i>
 nav: true
 nav_order: 2
-display_categories: [PI, Postdoc, Graduate students, Undergrads]
+display_categories: [PI, Postdoc, Graduate students, Undergrads, Alumni]
 ---
 
 <!-- pages/members.md -->
@@ -15,7 +15,8 @@ display_categories: [PI, Postdoc, Graduate students, Undergrads]
 <h2 class="category">{{ category }}</h2>
 {%- assign categorized_members = site.members | where: "category", category -%}
 {%- assign sorted_members = categorized_members | sort: "lastname" %}
-<!-- Generate cards for each member -->
+<!-- Generate cards for each current member -->
+{%- if category != "Alumni" -%}
 <div class="container">
   <div class="row row-cols-1">
   {%- for member in sorted_members -%}
@@ -25,5 +26,15 @@ display_categories: [PI, Postdoc, Graduate students, Undergrads]
   {%- endfor %}
   </div>
 </div>
+
+<!-- Alumni members -->
+{%- else -%}
+<ul>
+  {%- for member in sorted_members -%}
+    <li><strong>{{ member.name }}</strong> - {{ member.position }}</li>
+  {%- endfor -%}
+<-ul>
+{%- endif -%}
+
 {% endfor %}
 </div>

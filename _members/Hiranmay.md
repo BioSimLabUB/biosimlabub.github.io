@@ -8,7 +8,8 @@ email: hmaity@buffalo.edu
 #github:
 scholar: IJF_KHkAAAAJ
 img: assets/img/members/Hiranmay.jpeg
-category: Postdoc
+category: Alumni
+position: Assistant Professor, Birla Institute of Technology and Science Dubai
 cv: false
 address: >
     Department of Chemistry<br />
