@@ -31,9 +31,9 @@ display_categories: [PI, Postdoc, Graduate students, Undergrads, Alumni]
 {%- else -%}
 <ul>
   {%- for member in sorted_members -%}
-    <li><strong>{{ member.name }}</strong> - {{ member.position }}</li>
+    <li><strong>{{ member.title }}</strong> ({{ member.description }}) - now {{ member.position }}</li>
   {%- endfor -%}
-<-ul>
+</ul>
 {%- endif -%}
 
 {% endfor %}
