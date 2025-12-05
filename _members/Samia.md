@@ -1,7 +1,7 @@
 ---
 layout: members
 title: Samia Noor
-description: Graduate student
+description: Master student
 #position:
 lastname: Noor
 email: samianoo@buffalo.edu
@@ -10,7 +10,7 @@ email: samianoo@buffalo.edu
 #scholar:
 img: assets/img/members/shy_member.jpg
 category: Alumni
-position: UK
+position: in the UK
 cv: false
 address: >
     Department of Chemistry<br />
