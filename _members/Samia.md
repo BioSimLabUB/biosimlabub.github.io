@@ -10,7 +10,7 @@ email: samianoo@buffalo.edu
 #scholar:
 img: assets/img/members/shy_member.jpg
 category: Alumni
-position: in the UK
+position: PhD student at UCL, UK
 cv: false
 address: >
     Department of Chemistry<br />
